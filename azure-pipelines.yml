@@ -9,7 +9,7 @@ trigger:
 pool: Test
 
 steps:
-- task: Maven@4
+- task: Maven@5
   inputs:
     mavenPomFile: 'parker/pom.xml'
     mavenOptions: '-Xmx3072m'
